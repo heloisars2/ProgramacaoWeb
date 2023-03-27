@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background:no-repeat center/cover url('https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls-orl-prd/j9svagcr5gxidvdea0eu.jpg');
+    height: calc(100vh - 150px);
+    margin:  auto 0px;
+    background-color: #8238c7;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav p {
+    font-weight: bold;
+    background: #8238c7;
+}
+
+header nav ul{
+    display: flex;
+
+
+}
+
+header nav ul li {
+    margin: 0 15px;
+    
+}
+
+.header-content {
+    max-width: 400px;
+    margin:  150px auto;
+    text-align: center;
+    background-color: #8238c7;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+
+}
+
+.jogadoras {
+    
+
+    padding: 15px;
+}
+
+.jogadoras .jogadoras-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #52287a;
+ 
+
+}
+
+.jogadoras .pacotes-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    background-color: #8238c7;
+
+}
+
+.jogadoras .card{
+    width: 250px;
+    height: 360px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+    background-color: #7034a8;
+}
+
+.jogadoras .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 26px 0;
+    object-fit: cover;
+    background-color: #6b458f;
+
+}
+
+.jogadoras .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+
+
+}
+
+.jogadoras .card-content ul li{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.jogadoras .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+
+}
+.jogadoras .card-content h1 {
+    font-size: 1rem;
+
+}
+
+.jogadoras .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+    border-radius:  8px 0 0 8px;
+    padding: 5px 10px;
+
+}
+
+.jogadoras .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: rgb(120, 73, 180);
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.jogadoras .card .card-tag p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.historia{
+    padding: 15px;
+}
+
+.historia .historia-tittle {
+    text-align: center;
+    margin: 35px 0;
+}
+
+
+.historia .historia-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+
+
+.historia .card .card-content{
+    height: 180px;
+    text-align: center;
+}
