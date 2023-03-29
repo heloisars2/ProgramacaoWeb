@@ -16,26 +16,21 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 254, 254);
+    background-color:  #52287a;
 }
 
 h1 {
-    color: black;
+    color:  #ffffff;
     font-size: 2rem;
 }
 
-button {
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-}
 
 header {
-    background:no-repeat center/cover url('assets/4ae2d169-5881-4aca-92a8-e8700c5c6db2-istock-1060514208-1.jpg');
+    background:no-repeat center/cover url('https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls-orl-prd/j9svagcr5gxidvdea0eu.jpg');
     height: calc(100vh - 150px);
     margin:  auto 0px;
+
 }
 
 header nav{
@@ -46,122 +41,147 @@ header nav{
 
 header nav p {
     font-weight: bold;
+    background: #52287a;
 }
 
 header nav ul{
     display: flex;
+
+
 }
 
 header nav ul li {
     margin: 0 15px;
+    
 }
 
 .header-content {
     max-width: 400px;
     margin:  150px auto;
     text-align: center;
+    background-color: #52287a;
+    border-radius: 20px;
 }
 
 .header-content h1{
     margin-bottom: 10px;
     font-size: 4rem;
+
 }
 
-.pacotes {
-    background-color: #8290dd;
+.jogadoras {
+    
+    background-color: #52287a;
     padding: 15px;
 }
 
-.pacotes .pacotes-cards {
+.jogadoras .jogadoras-cards {
     display: flex;
     margin: auto;
     max-width: 950px;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #52287a;
+ 
+
 }
 
-.pacotes .pacotes-title{
+.jogadoras .pacotes-title{
     width: 100%;
     text-align: center;
     margin: 25px 0;
+    background-color: #8238c7;
+
 }
 
-.pacotes .card{
+.jogadoras .card{
     width: 250px;
-    height: 350px;
+    height: 360px;
     background-color: rgb(255, 255, 255);
     border-radius: 24px 0;
     margin: 25px;
     position: relative;
+    background-color: #7034a8;
 }
 
-.pacotes .card-image{
+.jogadoras .card-image{
     width: 250px;
     height: 200px;
-    border-radius: 24px 0;
+    border-radius: 26px 0;
     object-fit: cover;
+    background-color: #6b458f;
+
 }
 
-.pacotes .card-content ul{
+.jogadoras .card-content ul{
     display: flex;
     flex-direction: column;
     padding: 0;
+
+
+
 }
 
-.pacotes .card-content ul li{
+.jogadoras .card-content ul li{
     font-size: 0.6rem;
     display: flex;
     align-items: center;
     margin: 3px;
-    color: grey;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+
 }
 
-.pacotes .card-content li svg {
+.jogadoras .card-content li svg {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+
 }
-.pacotes .card-content h1 {
+.jogadoras .card-content h1 {
     font-size: 1rem;
+
 }
 
-.pacotes .card .card-tag-top {
+.jogadoras .card .card-tag-top {
     position: absolute;
     right: 0;
     top: 15px;
-    background: #88d456;
+
     border-radius:  8px 0 0 8px;
     padding: 5px 10px;
+
 }
 
-.pacotes .card .card-tag-bottom {
+.jogadoras .card .card-tag-bottom {
     position: absolute;
     left: 0;
     top: 160px;
-    background: rgb(51, 51, 128);
+    background: rgb(219, 205, 238);
     border-radius: 0 8px 8px 0;
     padding: 5px 10px;
 }
 
-.pacotes .card .card-tag p{
+.jogadoras .card .card-tag p{
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: white;
     font-weight: bold;
+
 }
 
-.servicos{
+.historia{
     padding: 15px;
+    background-color: #9c71c5;
 }
 
-.servicos .servicos-tittle {
+.historia .historia-tittle {
     text-align: center;
     margin: 35px 0;
 }
 
 
-.servicos .servicos-cards{
+.historia .historia-cards{
     margin-top: 25px;
     display: flex;
     max-width: 950px;
@@ -170,37 +190,19 @@ header nav ul li {
     flex-wrap: wrap;
 }
 
-.servicos .card{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
-}
 
-.servicos .card svg {
-    width: 60px;
-    height: 60px;
-    margin: 50px;
-    transition: all 1s;
-}
 
-.servicos .card svg:hover {
-    stroke: #5b67aa;
-    transform: scale(1.1);
-}
 
-.servicos .card .card-content{
+.historia .card .card-content{
     height: 180px;
     text-align: center;
 }
 
 .contato {
     padding:  60px;
-    background-color: rgb(61, 135, 247);
+
     position: relative;
-    text-align: right;
+    text-align: center;
 }
 
 .contato .contato-card {
@@ -210,23 +212,23 @@ header nav ul li {
     position: absolute;
     z-index: 99;
     border-radius: 8px;
-    top: calc(50% - 170px);
-    left: calc(20% - 175px);
+    top: calc(50% - 200px);
+    left: calc(20% - 125px);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .contato .contato-card li {
     padding-left: 50px;
     text-align: left;
 }
-
 .contato .contato-card li {
     font-size: .8rem;
     font-weight: bold;
-    color: grey;
+    color: rgb(109, 55, 134);
     display: flex;
     align-items: center;
 }
